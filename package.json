@@ -1,6 +1,6 @@
 {
   "name": "hyas-child-theme",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hyas child theme",
   "main": "index.js",
   "hugo-bin": {
