@@ -1,5 +1,5 @@
-const autoprefixer = require('autoprefixer')
-const purgecss = require('@fullhuman/postcss-purgecss')
+const autoprefixer = require('autoprefixer');
+const purgecss = require('@fullhuman/postcss-purgecss');
 const whitelister = require('purgecss-whitelister');
 
 module.exports = {
@@ -15,9 +15,17 @@ module.exports = {
 
       safelist: [
         'lazyloaded',
+        'table',
+        'thead',
+        'tbody',
+        'tr',
+        'th',
+        'td',
+        'h3',
         ...whitelister([
           './node_modules/@hyas/core/assets/scss/common/_variables.scss',
           './node_modules/@hyas/core/assets/scss/components/_code.scss',
+          // './node_modules/@hyas/core/assets/scss/components/_syntax.scss',
         ]),
       ],
     }),
