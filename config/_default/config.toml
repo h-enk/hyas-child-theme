@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://hyas-child-theme.netlify.app/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -72,6 +72,9 @@ notAlternative = true
 [permalinks]
   blog = "/:title/"
 
+[minify.tdewolff.html]
+  keepWhitespace = false
+
 [related]
 threshold = 80
 includeNewer = true
@@ -102,15 +105,6 @@ toLower = false
   [[module.mounts]]
     source = "node_modules/@hyas/core/static"
     target = "static"
-  [[module.mounts]]
-    source = "node_modules/lazysizes"
-    target = "assets/js/vendor/lazysizes"
-  [[module.mounts]]
-    source = "node_modules/instant.page"
-    target = "assets/js/vendor/instant.page"
-  [[module.mounts]]
-    source = "node_modules/bootstrap"
-    target = "assets/js/vendor/bootstrap"
   [[module.mounts]]
     source = "assets"
     target = "assets"
