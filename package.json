@@ -41,7 +41,7 @@
     "@babel/preset-env": "^7.15",
     "@fullhuman/postcss-purgecss": "^4.0",
     "@hyas/core": "^1.5",
-    "@popperjs/core": "^2.9",
+    "@popperjs/core": "^2.10",
     "auto-changelog": "^2.3.0",
     "autoprefixer": "^10.3",
     "bootstrap": "^5.1",
