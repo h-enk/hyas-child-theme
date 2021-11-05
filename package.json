@@ -1,7 +1,7 @@
 {
   "name": "hyas-child-theme",
   "description": "Hyas child theme",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "browserslist": [
     "defaults"
   ],
