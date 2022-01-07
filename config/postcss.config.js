@@ -22,8 +22,10 @@ module.exports = {
         'th',
         'td',
         'h3',
+        'alert-link',
         ...whitelister([
           './node_modules/@hyas/core/assets/scss/common/_variables.scss',
+          './assets/scss/components/_alerts.scss',
           './node_modules/@hyas/core/assets/scss/components/_code.scss',
           // './node_modules/@hyas/core/assets/scss/components/_syntax.scss',
         ]),
