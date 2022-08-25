@@ -1,3 +1,5 @@
+> :warning: **Please migrate to Hyas**: With the restructuring of Hyas, the Hyas Child Theme is no longer relevant. [How to Migrate →](https://gethyas.com/docs/help/how-to-migrate/)
+
 <p align="center">
   <a href="https://gethyas.com/">
     <img alt="Doks" src="https://hyas.netlify.app/hyas.svg" width="60">
